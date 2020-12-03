@@ -7,7 +7,7 @@ namespace AdventOfCode2020
     {
         static async Task Main(string[] args)
         {         
-            await Day1.SolvePart2Async();
+            await Day3.SolvePart2Async();
         }
     }
 }
