@@ -3,11 +3,11 @@ using System.Threading.Tasks;
 
 namespace AdventOfCode2020
 {
-    class Program
+    internal class Program
     {
-        static async Task Main(string[] args)
-        {         
-            await Day4.SolvePart2Async();
+        private static async Task Main(string[] args)
+        {
+            await Day8.SolvePart1Async();
         }
     }
 }
